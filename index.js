@@ -25,7 +25,7 @@ function lakukanLooping(arrPegawai) {
   */
   let hasilLooping = [];
   for (let employee = 0; employee < dataYangAkanDilooping.length; employee++) {
-    hasilLooping += dataYangAkanDilooping[employee].namaDepan + " " + dataYangAkanDilooping[employee].namaBelakang + "\n";
+    hasilLooping.push(dataYangAkanDilooping[employee].namaDepan + " " + dataYangAkanDilooping[employee].namaBelakang);
   }
   /*
     TODO 2: Buatlah sebuah variabel bernama "jumlahPria"
